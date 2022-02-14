@@ -9,5 +9,5 @@ an efficient and resielient android application. To be more specific I used:
 
 Below I am showing a diagram of my project is structured.
 
-![stack Overflow](http://lmsotfy.com/so.png)
+![stack Overflow](https://imgur.com/a/vZjDeLn)
 
