@@ -9,4 +9,5 @@ an efficient and resielient android application. To be more specific I used:
 
 Below I am showing a diagram of my project is structured.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/vZjDeLn" data-context="false" ><a href="//imgur.com/a/vZjDeLn"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![stack Overflow](http://lmsotfy.com/so.png)
+
