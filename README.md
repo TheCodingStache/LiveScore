@@ -9,5 +9,6 @@ an efficient and resielient android application. To be more specific I used:
 
 Below I am showing a diagram of my project is structured.
 
-![stack Overflow](https://imgur.com/a/vZjDeLn)
+![Untitled Document](https://user-images.githubusercontent.com/34012037/153930705-383164b0-2d7b-425f-baad-c4394b2f3ae6.png)
+
 
