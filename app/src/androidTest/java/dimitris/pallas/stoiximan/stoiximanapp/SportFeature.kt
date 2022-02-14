@@ -20,7 +20,7 @@ class SportFeature : BaseUITest() {
 
     @Test
     fun displayScreenTitle() {
-        assertDisplayed("Stoiximan MVP")
+        assertDisplayed("Stoiximan")
     }
 
     @Test

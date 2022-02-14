@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Stoiximan MVP</string>
+    <string name="app_name">Stoiximan</string>
     <string name="sports_screen_title">Stoiximan App</string>
     <string name="epoch_time"> %1$d Days %2$d Hours %3$d Minutes %4$d Seconds </string>
     <string name="expired">This event has already finished</string>
