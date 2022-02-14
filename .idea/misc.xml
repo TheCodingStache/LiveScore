@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.3055" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_outline_24.xml" value="0.3055" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1035" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16259057971014493" />
+        <entry key="app/src/main/res/layout/child_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.16236068895643363" />
+        <entry key="app/src/main/res/layout/fragment_sport.xml" value="0.2995327102803738" />
+        <entry key="app/src/main/res/layout/item_row_child.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_row_parent.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/item_title_profile.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_animation.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/sport_item.xml" value="0.16236068895643363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
