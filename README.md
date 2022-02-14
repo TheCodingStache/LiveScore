@@ -9,6 +9,6 @@ an efficient and resielient android application. To be more specific I used:
 
 Below I am showing a diagram of my project is structured.
 
-![Untitled Document](https://user-images.githubusercontent.com/34012037/153930705-383164b0-2d7b-425f-baad-c4394b2f3ae6.png)
 
+![Untitled Document](https://user-images.githubusercontent.com/34012037/153933962-5625f0eb-2293-4b2b-8b9a-d106036be491.png)
 
