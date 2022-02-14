@@ -9,4 +9,4 @@ an efficient and resielient android application. To be more specific I used:
 
 Below I am showing a diagram of my project is structured.
 
-<img src="https://embed.creately.com/2hiftjJkczJ?type=svg">
+![alt text](https://imgur.com/a/vZjDeLn)
