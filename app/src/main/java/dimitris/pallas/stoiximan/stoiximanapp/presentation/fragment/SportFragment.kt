@@ -1,6 +1,7 @@
 package dimitris.pallas.stoiximan.stoiximanapp.presentation.fragment
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import com.google.gson.GsonBuilder
 import dagger.hilt.android.AndroidEntryPoint
 import dimitris.pallas.stoiximan.stoiximanapp.R
 import dimitris.pallas.stoiximan.stoiximanapp.SportsModel
@@ -48,6 +50,8 @@ class SportFragment : Fragment() {
             this as LifecycleOwner
         ) { result ->
             if (result.getOrNull() != null) {
+                val gson = GsonBuilder().setPrettyPrinting().create()
+                Log.d("TAG", "observeWork: ${gson.toJson(result.getOrNull())}")
                 renderData(result.getOrNull()!!)
             } else {
                 Snackbar.make(

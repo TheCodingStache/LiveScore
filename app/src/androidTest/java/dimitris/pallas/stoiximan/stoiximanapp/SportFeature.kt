@@ -25,7 +25,7 @@ class SportFeature : BaseUITest() {
 
     @Test
     fun displayListOfSports() {
-        assertRecyclerViewItemCount(R.id.parent_recycler_view, 11)
+        assertRecyclerViewItemCount(R.id.parent_recycler_view, 9)
         onView(
             CoreMatchers.allOf(
                 withId(R.id.sport),

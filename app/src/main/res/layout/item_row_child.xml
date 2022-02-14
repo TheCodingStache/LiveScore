@@ -7,19 +7,20 @@
     app:cardCornerRadius="10dp"
     app:cardElevation="5dp">
 
-        <ImageButton
-            android:id="@+id/outline_start"
-            android:background="@android:color/transparent"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="10dp"
-            android:src="@drawable/ic_baseline_star_outline_24"
-            android:layout_height="wrap_content"/>
-    <LinearLayout
+    <ImageButton
+        android:id="@+id/outline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_star_outline_24" />
+
+    <LinearLayout
         android:id="@+id/linear_child"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -27,13 +28,13 @@
             android:id="@+id/teams"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="20dp"/>
+            android:padding="20dp" />
 
         <TextView
             android:id="@+id/epoch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="20dp"/>
+            android:padding="20dp" />
 
     </LinearLayout>
 

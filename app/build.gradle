@@ -1,18 +1,12 @@
-
-
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
-}
+    id 'com.google.secrets_gradle_plugin' version '0.4'
 
-def Base_URL = '"' + WEBServiceBaseURL + '"' ?: '"Define BASE URL"';
-android.buildTypes.each { type ->
-    type.buildConfigField 'String', 'Base_URL', WEBServiceBaseURL
 }
-
 android {
     compileSdk 31
     buildToolsVersion "30.0.2"

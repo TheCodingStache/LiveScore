@@ -12,7 +12,7 @@
         android:layout_marginBottom="10dp"
         android:padding="10dp"
         android:includeFontPadding="false"
-        android:text="Stoiximan MVP"
+        android:text="@string/app_name"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

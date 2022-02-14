@@ -19,7 +19,7 @@
 
             <include
                 android:id="@+id/title_layout"
-                layout="@layout/item_title_profile"
+                layout="@layout/item_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"
