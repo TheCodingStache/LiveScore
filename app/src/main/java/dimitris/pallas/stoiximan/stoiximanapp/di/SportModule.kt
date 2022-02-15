@@ -5,7 +5,6 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.FragmentComponent
-import dimitris.pallas.stoiximan.stoiximanapp.BuildConfig
 import dimitris.pallas.stoiximan.stoiximanapp.SportAPI
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -23,7 +22,7 @@ class SportModule {
     @Provides
     fun retrofit(): Retrofit =
         Retrofit.Builder()
-            .baseUrl(BuildConfig.BASE_URL)
+            .baseUrl("https://618d3aa7fe09aa001744060a.mockapi.io/api/sports/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
