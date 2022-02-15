@@ -6,7 +6,7 @@ an efficient and resielient android application. To be more specific I used:
 <b><br>✔️MVVM</b> design pattern</br>
 <b>🔄Coroutines</b>
 <br>💉DI (Dependency Injection) with <b>Hilt</b></br>
-Unit Tests and UI Tests
+Unit Tests and Integration Tests
 
 Below I demonstrate how my appplication is structured.
 
