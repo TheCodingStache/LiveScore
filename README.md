@@ -1,4 +1,4 @@
-# Stoiximan Application
+# LiveScore Application
 
 To build this application I used some of the latest features that android ecosystem provides to developers and I tried to follow best practices to implement
 an efficient and resielient android application. To be more specific I used: 
